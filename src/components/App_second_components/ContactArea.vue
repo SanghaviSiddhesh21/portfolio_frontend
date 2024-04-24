@@ -79,7 +79,7 @@ export default{
                                     emailMessage: this.contactdata.emailMessage
                                 };
                                 // Make API request
-                                const response =  await fetch('http://127.0.0.1:8080/api/newMailLogger', {
+                                const response =  await fetch('https://portfolio-backend-three-omega.vercel.app/newMailLogger', {
                                         method: 'POST',
                                         headers: {
                                             'Content-Type': 'application/json'
