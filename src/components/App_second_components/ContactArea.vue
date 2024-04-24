@@ -151,15 +151,15 @@ export default{
                 return true;
             }
         },
-        validateName(name){
-            name=name.trim();
-            const regex = /^[a-zA-Z]+$/;
+        validateName(name) {
+            name = name.trim();
+            const regex = /^[a-zA-Z\s]+$/; // Allow alphabetical characters and spaces
             if (regex.test(name)) {
                 // Name is valid
                 return true;
             } else {
-                // Name contains non-alphabetical characters
-                this.contactFormError='Error: Name must not contain numerical or special charachters and not be empty';
+                // Name contains non-alphabetical characters or is empty
+                this.contactFormError = 'Error: Name must only contain alphabetical characters and spaces, and not be empty';
                 return false;
             }
         },
