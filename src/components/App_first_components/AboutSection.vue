@@ -10,7 +10,7 @@
                     <h3 class="display-4 about_me_title">About Me</h3>
                     <p class="about_me_content">A tech enthusiast with a curiosity for all things digital. <br> passionate about coding, analyzing data, and creating awesome software. <br> With a knack for problem-solving and a hunger for learning.</p>
                     <p class="about_me_content">Always exploring new ideas and techniques to improve my skills. <br> If you have an idea, ping up!</p>
-                    <a href="https://drive.google.com/file/d/1sFYy8U6RUeUIkDTIZS4PAQx808pb_RVc/view?usp=sharing"><button type="button" class="btn resume_button">Resume</button></a>
+                    <a href="https://drive.google.com/file/d/1f2KaTpgFrAzFvZvfRRcaUj9eYR910oLy/view?usp=sharing"><button type="button" class="btn resume_button">Resume</button></a>
                 </div>
             </div>
         </div>
